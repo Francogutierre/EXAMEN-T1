@@ -22,7 +22,7 @@ public class AlumnoEventService {
     @Value("${topic.alumno.name:topic-Alumno-GUTIERREZ-G3}")
     private String topic;
 
-    public void publish(Alumno alumno) {
+    public void publish(Alumno alumno) {  
         AlumnoCreateEvent event = new AlumnoCreateEvent();
         event.setId(UUID.randomUUID().toString());
         event.setDate(new Date());

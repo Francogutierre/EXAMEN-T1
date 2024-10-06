@@ -38,6 +38,8 @@ public class Autor {
 	private Date fechaNacimiento;
 
 	private String telefono;
+	private String celular;
+	private String orcid;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss")
