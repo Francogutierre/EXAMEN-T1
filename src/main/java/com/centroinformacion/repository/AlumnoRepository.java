@@ -6,4 +6,4 @@ import com.centroinformacion.entity.Alumno;
 
 public interface AlumnoRepository extends JpaRepository<Alumno, Integer> {
 }
-   
+    
